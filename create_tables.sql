@@ -11,7 +11,7 @@ CREATE TABLE public.songplays (
 	start_time timestamp NOT NULL,
 	userid int4 NOT NULL,
 	"level" varchar(256),
-	songid varchar(256),
+	songid varchar(256) NOT NULL,
 	artistid varchar(256),
 	sessionid int4,
 	location varchar(256),
